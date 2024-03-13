@@ -56,6 +56,26 @@ Watch the First two days training recording of the RISCV-MYTH . The recording is
 ### LAB1
 #### Write a simple C program that incrementally adds numbers 1 to 5 and prints the result. 
 #### Compile it with RISCV-64 compiler and study the compiler output to get an understanding of Base Integer Instructions aka RV64I
+#### I wrote and compiled the program with default gcc compiler and here is the screenshot 
+<img width="407" alt="sum1ton" src="https://github.com/jaya117/RISCV-HDP/assets/139655462/2ece5a44-64ba-4013-be56-06af831a8449">
+
+#### Then I recompiled the same program using 64 bit RISCV compiler , using following command 
+##### riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
+##### To see the output assembly code use following command 
+##### riscv64-unknown-elf-objdump -d sum1ton.o | less 
+#### Screen shot of the result
+<img width="494" alt="sum1ton_obj_dump" src="https://github.com/jaya117/RISCV-HDP/assets/139655462/22b33b12-8ea6-462a-890f-9e6775ee4725">
+
+##### Left most column of numbers in above screenshot shows the byte address locations (incrementing in 4 bytes) to show the memeory location where the instructions are stored in the memory 
+
+##### If the program was compiled using the option (-01) instead of (-Ofast) then it will have more number of instructions , so option "-Ofast" provides optimized code 
+
+##### To run the object file generated after compiling the code in RISCV compiler is 
+##### spike pk sum1ton.o
+##### following screenshot is the result of running above command
+<img width="380" alt="riscv_obj_file_execution" src="https://github.com/jaya117/RISCV-HDP/assets/139655462/152d8bda-7fc3-4a40-8c64-a88f55a8c35b">
+
+
 
 
 
