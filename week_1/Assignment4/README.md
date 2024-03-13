@@ -1,5 +1,5 @@
-Assignment -4 
-Watch the First two day's training recording of the RISCV-MYTH training available on vsdiat account 
-Learnings from the training 
-**RV Day1- **
+## Assignment #4 
+Watch the First two days training recording of the RISCV-MYTH . It is available on vsdiat account 
+### Learnings from the training 
+#### RV Day1-
 
