@@ -75,6 +75,29 @@ Watch the First two days training recording of the RISCV-MYTH . The recording is
 ##### following screenshot is the result of running above command
 <img width="380" alt="riscv_obj_file_execution" src="https://github.com/jaya117/RISCV-HDP/assets/139655462/152d8bda-7fc3-4a40-8c64-a88f55a8c35b">
 
+##### So what is spike
+##### Spike is debugger , it can be invoked to debug an assembly code , just like any high level language debugger. We can add break points in the terms of memory address  printed in the left most coloumn of the ASM code 
+##### At this moment our assembly code looks like this -
+<img width="578" alt="asm_code_for_spike" src="https://github.com/jaya117/RISCV-HDP/assets/139655462/4fb9e023-e573-4e31-880c-d9c6bdd9dd20">
+##### Lets say we want to check the content of the RISCV registers at the time when main() is invoked.
+##### That is what is the content of rehister a2 whem main is called , to answer this question we need to invoke the debugger 
+##### Command to invoke spike debugger 
+##### spike -d pk sum1ton.o
+##### until pc 0 100b0
+##### reg 0 a2
+<img width="635" alt="spike_debugger1" src="https://github.com/jaya117/RISCV-HDP/assets/139655462/c7c072d7-809a-4c06-8da6-e79fe5816ad5">
+
+##### Now that we have seen the content of a2 before execution of the instruction at 100b0 , we press enter so the instruction "lui a2,0x1 " gets executed.
+##### Once again we check the value of a2 like above , and we see following result 
+<img width="280" alt="spike_debugger2" src="https://github.com/jaya117/RISCV-HDP/assets/139655462/411619ff-9b99-4d04-93bc-4721734c0bc0">
+##### in above screen shot a2 is shown to contain value 0x0001000 instead of expected 0x0000001...We may ask why?
+##### The answer is explained in the screen shot below. A2 is a 32 bit register , but some LSBits are reserved for other meta information and the actual data is stored on locations [31:12] 
+<img width="607" alt="32_bit_reg_fields" src="https://github.com/jaya117/RISCV-HDP/assets/139655462/032dfad1-7ae2-49d9-9602-22e1e2c1f90e">
+
+
+
+
+
 
 
 
