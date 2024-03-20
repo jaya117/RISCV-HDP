@@ -19,6 +19,6 @@
 <details> 
   <summary> My IoT project </summary>
   Still thinking about it.
-  Is it possible with this tool to create an SoC with 2 RISC-V cores , running in parallel as a PoC of parallel computing?
+  
   
 </details>
