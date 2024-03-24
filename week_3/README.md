@@ -25,7 +25,7 @@ This weeks assignment is
 </details>
 <details> 
   <summary> My RISC-V based Embedded Application </summary>
-     Motion sensitive under the cabinet LED light for kitchen or bathroom cabinets.  Specification of the application is as follows 
+     I have chosen to design a Motion sensitive, under the cabinet LED light bar for kitchen or bathroom cabinets.  Specification of the application is as follows 
     
      1. Power button - controls power on off
      2. Warm light mode button - When pressed , warm light LEDs on the light bar are powered up
