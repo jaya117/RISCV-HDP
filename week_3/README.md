@@ -22,6 +22,8 @@ This weeks assignment is
  2. Design your your own IO Mapping according to your application
  3. Properly document it in GitHub
 
+ [Assignment path](./Assignment)
+
 </details>
 <details> 
   <summary> My RISC-V based Embedded Application </summary>
