@@ -25,7 +25,9 @@ This weeks assignment is
 </details>
 <details> 
   <summary> My IoT project </summary>
-   Motion sensitive under the cabinet LED light for kitchen or bathroom cabinets 
-  
+     Motion sensitive under the cabinet LED light for kitchen or bathroom cabinets. This motion sensitive light has 2 input buttons- 
+     
+ 1. First button controls following functionality
+     
   
 </details>
