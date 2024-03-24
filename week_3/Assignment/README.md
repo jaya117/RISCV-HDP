@@ -13,4 +13,6 @@
      or motion sensitive -> permanent)    
      
 </details>
+<details> <summary> GPIO mapping </summary>
+</details>
 
