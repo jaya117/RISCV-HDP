@@ -10,7 +10,8 @@
      4. Motion sensor - detect the presence of a human/object and switches on the LED lights in default mode
      5. Motion sensor activate button - It's also a toggle button when pressed it changes the current state of operation to the 
      other state (permanent ->motiona sensitive
-     or motion sensitive -> permanent)    
+     or motion sensitive -> permanent) 
+     
      
 </details>
 <details> <summary> GPIO mapping </summary>
