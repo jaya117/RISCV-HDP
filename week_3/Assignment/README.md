@@ -19,7 +19,12 @@
 
 <details> <summary> FlowChart</summary></details>
 
-<details><summary> GPIO Mapping </summary></details>
+<details><summary> GPIO Mapping </summary>
+
+<img width="847" alt="image" src="https://github.com/jaya117/RISCV-HDP/assets/139655462/034f227e-ccbe-499d-8d47-aba14b8efbfe">
+
+
+</details>
 
 <details> <summary> C Program </summary>
 
