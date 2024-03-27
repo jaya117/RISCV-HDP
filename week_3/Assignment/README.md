@@ -17,6 +17,9 @@
 
 <details> <summary> Block Diagram </summary></details>
 
+<img width="516" alt="image" src="https://github.com/jaya117/RISCV-HDP/assets/139655462/65e09229-1ce5-471d-9adc-8c1359bca891">
+
+
 <details><summary> Functionality </summary>
 
  Functionality of the application is as follows 
