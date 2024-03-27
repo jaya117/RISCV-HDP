@@ -48,7 +48,16 @@
 
 </details>
 
-<details> <summary> C Program execution on RISCV64 compiler </summary></details>
+<details> <summary> C Program execution on RISCV64 compiler </summary>
+
+<img width="256" alt="image" src="https://github.com/jaya117/RISCV-HDP/assets/139655462/de217d13-142b-475d-884c-c3b27f48f71e">
+
+
+
+<img width="214" alt="image" src="https://github.com/jaya117/RISCV-HDP/assets/139655462/355315fe-1933-4499-9394-384a91ffa393">
+
+
+</details>
 
 <details><summary> Assembly code for the C program without stdio </summary>
 
