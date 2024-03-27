@@ -1,4 +1,4 @@
-</details>
+
 <details> 
   <summary>  Motion sensitive under the cabinet LED light bar  </summary> 
      Specification of the application is as follows 
@@ -11,9 +11,27 @@
      5. Motion sensor activate button - It's also a toggle button when pressed it changes the current state of operation to the 
      other state (permanent ->motiona sensitive
      or motion sensitive -> permanent) 
-     
-     
-</details>
-<details> <summary> GPIO mapping </summary>
 </details>
 
+<details> <summary> Block Diagram </summary></details>
+
+<details><summary> Functionality </summary></details>
+
+<details> <summary> FlowChart</summary></details>
+
+<details><summary> GPIO Mapping </summary></details>
+
+<details> <summary> C Program </summary>
+
+  
+
+
+</details>
+
+<details> <summary> C Program execution on RISCV64 compiler </summary></details>
+
+<details><summary> Assembly code for the C program without stdio </summary></details>
+
+
+
+ 
