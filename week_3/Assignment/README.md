@@ -15,10 +15,11 @@
 
 </details>
 
-<details> <summary> Block Diagram </summary></details>
+<details> <summary> Block Diagram </summary>
 
 <img width="516" alt="image" src="https://github.com/jaya117/RISCV-HDP/assets/139655462/65e09229-1ce5-471d-9adc-8c1359bca891">
 
+</details>
 
 <details><summary> Functionality </summary>
 
@@ -34,7 +35,11 @@
      or motion sensitive -> permanent) 
 </details>
 
-<details> <summary> FlowChart</summary></details>
+<details> <summary> FlowChart</summary>
+
+<img width="539" alt="image" src="https://github.com/jaya117/RISCV-HDP/assets/139655462/1f120bac-b80a-4e33-a32d-57e2ded1cf16">
+
+</details>
 
 <details><summary> GPIO Mapping </summary>
 
