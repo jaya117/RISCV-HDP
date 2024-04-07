@@ -14,7 +14,9 @@ Full Assembly code for application with compiler optimization - [motion_sensitiv
 
 #### Total number of instructions used in Ofast version of assembly code - 159
 
-#### unique instructions used in the program - 16
+#### Total number of unique instructions used in the program - 17
+
+#### Unique Instructions
 1. lui
 2. li
 3. addi
