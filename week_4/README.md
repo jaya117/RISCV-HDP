@@ -10,11 +10,11 @@ Full Assembly code for application  without compiler optimization - [motion_sens
 
 Full Assembly code for application with compiler optimization - [motion_sensitive_led_bar_Ofast.asm](./Assignment/motion_sensitive_led_bar_Ofast.asm)
 
-Following the instruction statistics from thr Ofast version of the assembly code 
+## The instruction statistics from thr Ofast version of the assembly code 
 
-total number of instructions - 159
+#### Total number of instructions used in Ofast version of assembly code - 159
 
-unique instructions used in the program - 
+#### unique instructions used in the program - 16
 1. lui
 2. li
 3. addi
