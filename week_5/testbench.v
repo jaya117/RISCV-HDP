@@ -113,8 +113,8 @@ begin
     $dumpvars(0,tb);
 end 
 
-reg [3:0] input_wires; 
-wire [3:0] output_wires ; 
+reg [4:0] input_wires; 
+wire [2:0] output_wires ; 
 wire [2:0] pc ; 
 
 
@@ -129,7 +129,7 @@ initial begin
     neg_rst = ~clk ;
     uart_rxd = 1'b1;
     neg_clk = 1'b1; 
-    input_wires = 4'b0111;
+    input_wires = 5'b11111;
     #4000
     resetn = 1'b1;
     rst=0;
@@ -232,4 +232,3 @@ end
 
 
 endmodule
-
