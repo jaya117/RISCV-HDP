@@ -1,1 +1,86 @@
 
+ledbarlocalvarasmout:     file format elf32-littleriscv
+
+
+Disassembly of section .text:
+
+00010054 <main>:
+   10054:	20000637          	lui	a2,0x20000
+   10058:	fff60613          	addi	a2,a2,-1 # 1fffffff <__global_pointer$+0x1ffee6a7>
+   1005c:	001f7793          	andi	a5,t5,1
+   10060:	02078263          	beqz	a5,10084 <main+0x30>
+   10064:	004f5513          	srli	a0,t5,0x4
+   10068:	00157793          	andi	a5,a0,1
+   1006c:	00079c63          	bnez	a5,10084 <main+0x30>
+   10070:	001f7793          	andi	a5,t5,1
+   10074:	fe0784e3          	beqz	a5,1005c <main+0x8>
+   10078:	004f5513          	srli	a0,t5,0x4
+   1007c:	00157793          	andi	a5,a0,1
+   10080:	fe0788e3          	beqz	a5,10070 <main+0x1c>
+   10084:	001f5513          	srli	a0,t5,0x1
+   10088:	00157793          	andi	a5,a0,1
+   1008c:	002f5513          	srli	a0,t5,0x2
+   10090:	00157713          	andi	a4,a0,1
+   10094:	003f5513          	srli	a0,t5,0x3
+   10098:	00157693          	andi	a3,a0,1
+   1009c:	00cf7f33          	and	t5,t5,a2
+   100a0:	00a7e533          	or	a0,a5,a0
+   100a4:	01d51513          	slli	a0,a0,0x1d
+   100a8:	00af6f33          	or	t5,t5,a0
+   100ac:	00057533          	and	a0,a0,zero
+   100b0:	00a76533          	or	a0,a4,a0
+   100b4:	01e51513          	slli	a0,a0,0x1e
+   100b8:	00af6f33          	or	t5,t5,a0
+   100bc:	00057533          	and	a0,a0,zero
+   100c0:	00a6e533          	or	a0,a3,a0
+   100c4:	01f51513          	slli	a0,a0,0x1f
+   100c8:	00af6f33          	or	t5,t5,a0
+   100cc:	f91ff06f          	j	1005c <main+0x8>
+
+000100d0 <is_motion_sensor_enabled>:
+   100d0:	001f7513          	andi	a0,t5,1
+   100d4:	00008067          	ret
+
+000100d8 <is_motion_detected>:
+   100d8:	004f5513          	srli	a0,t5,0x4
+   100dc:	00157793          	andi	a5,a0,1
+   100e0:	00078513          	mv	a0,a5
+   100e4:	00008067          	ret
+
+000100e8 <is_warm_light_sel>:
+   100e8:	001f5513          	srli	a0,t5,0x1
+   100ec:	00157793          	andi	a5,a0,1
+   100f0:	00078513          	mv	a0,a5
+   100f4:	00008067          	ret
+
+000100f8 <is_soft_light_sel>:
+   100f8:	002f5513          	srli	a0,t5,0x2
+   100fc:	00157793          	andi	a5,a0,1
+   10100:	00078513          	mv	a0,a5
+   10104:	00008067          	ret
+
+00010108 <get_dimmer_level>:
+   10108:	003f5513          	srli	a0,t5,0x3
+   1010c:	00157793          	andi	a5,a0,1
+   10110:	00078513          	mv	a0,a5
+   10114:	00008067          	ret
+
+00010118 <drive_outputs>:
+   10118:	200007b7          	lui	a5,0x20000
+   1011c:	00050713          	mv	a4,a0
+   10120:	fff78793          	addi	a5,a5,-1 # 1fffffff <__global_pointer$+0x1ffee6a7>
+   10124:	00ff7f33          	and	t5,t5,a5
+   10128:	00a76533          	or	a0,a4,a0
+   1012c:	01d51513          	slli	a0,a0,0x1d
+   10130:	00af6f33          	or	t5,t5,a0
+   10134:	00057533          	and	a0,a0,zero
+   10138:	00a5e533          	or	a0,a1,a0
+   1013c:	01e51513          	slli	a0,a0,0x1e
+   10140:	00af6f33          	or	t5,t5,a0
+   10144:	00057533          	and	a0,a0,zero
+   10148:	00a66533          	or	a0,a2,a0
+   1014c:	01f51513          	slli	a0,a0,0x1f
+   10150:	00af6f33          	or	t5,t5,a0
+   10154:	00008067          	ret
+
+
