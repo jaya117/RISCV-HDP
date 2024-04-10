@@ -66,7 +66,7 @@ Tasks completed
     input_wires = 5'b11111;
     
 
-12. Compiled and simulate the design using following command
+12. Compiled and simulated the design using following command
 
    iverilog -o motion_sensitive_led_bar_code_v testbench.v processor.v
 
