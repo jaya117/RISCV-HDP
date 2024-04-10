@@ -1,1 +1,13 @@
-
+#list of unique instructions
+slli
+lui
+j
+addi
+andi
+and
+or
+ret
+srli
+bnez
+beqz
+mv
