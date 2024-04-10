@@ -41,8 +41,32 @@ Tasks completed
    
    wire [2:0] output_wires ; 
 
-10. Initialized qll input pins to 1 at the reset 
-11. Compiled and simulate the design using following command
+10. Initialized qll input pins to 1 at the reset
+
+    initial begin
+
+    rst=1;
+
+    rst_pin=1; 
+
+    neg_rst = 1; 
+
+    resetn  = 1'b0;
+
+    clk     = 1'b0;
+
+    neg_clk = 1; 
+
+    neg_rst = ~clk ;
+
+    uart_rxd = 1'b1;
+
+    neg_clk = 1'b1; 
+
+    input_wires = 5'b11111;
+    
+
+12. Compiled and simulate the design using following command
 
    iverilog -o motion_sensitive_led_bar_code_v testbench.v processor.v
 
