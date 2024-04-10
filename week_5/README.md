@@ -6,7 +6,9 @@ Tasks completed
 3. Tested the appplication after adding inline asssembly code
 4. Created all.json file to generate the chipcron processor code
 5. Generated processor core and testbench
+   
    <img width="406" alt="image" src="https://github.com/jaya117/RISCV-HDP/assets/139655462/87ced05b-944b-4df5-9c99-e2f60cae3eb8">
+   
 
 7. Updated GPIO size and GPIO pin mappings in processor.v
 
