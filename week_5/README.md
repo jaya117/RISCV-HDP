@@ -72,6 +72,10 @@ Tasks completed
 
    vvp motion_sensitive_led_bar_code_v   
   
+13. Simulation result
+
+<img width="413" alt="image" src="https://github.com/jaya117/RISCV-HDP/assets/139655462/bdc5da87-8c85-40c2-9798-6af44ad0b16b">
+
 
 
 
