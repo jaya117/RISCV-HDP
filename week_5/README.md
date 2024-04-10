@@ -9,10 +9,15 @@ Tasks completed
 6. Updated GPIO size and GPIO pin mappings in processor.v
 
    always @(posedge clk) 
-    begin
+
+   begin
+   
     output_pins = {top_gpio_pins[31:29],24'b0, input_gpio_pins} ; 
+
     output_gpio_pins = top_gpio_pins[31:29]; 
+
     write_done = writing_inst_done ; 
+
     instructions = write_inst_count[2:0]; 
 
     end 
