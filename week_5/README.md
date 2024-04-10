@@ -6,7 +6,9 @@ Tasks completed
 3. Tested the appplication after adding inline asssembly code
 4. Created all.json file to generate the chipcron processor code
 5. Generated processor core and testbench
-6. Updated GPIO size and GPIO pin mappings in processor.v
+   <img width="406" alt="image" src="https://github.com/jaya117/RISCV-HDP/assets/139655462/87ced05b-944b-4df5-9c99-e2f60cae3eb8">
+
+7. Updated GPIO size and GPIO pin mappings in processor.v
 
    output reg write_done ; 
 
@@ -31,9 +33,9 @@ Tasks completed
 
     end 
 
-7. Updated input and output width in testbench.v
-8. Initialized qll input pins to 1 at the reset 
-9. Compiled and simulate the design using following command
+8. Updated input and output width in testbench.v
+9. Initialized qll input pins to 1 at the reset 
+10. Compiled and simulate the design using following command
 
    iverilog -o motion_sensitive_led_bar_code_v testbench.v processor.v
 
