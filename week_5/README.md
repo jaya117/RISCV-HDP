@@ -36,8 +36,13 @@ Tasks completed
     end 
 
 8. Updated input and output width in testbench.v
-9. Initialized qll input pins to 1 at the reset 
-10. Compiled and simulate the design using following command
+
+   reg [4:0] input_wires;
+   
+   wire [2:0] output_wires ; 
+
+10. Initialized qll input pins to 1 at the reset 
+11. Compiled and simulate the design using following command
 
    iverilog -o motion_sensitive_led_bar_code_v testbench.v processor.v
 
