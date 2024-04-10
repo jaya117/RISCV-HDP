@@ -8,6 +8,15 @@ Tasks completed
 5. Generated processor core and testbench
 6. Updated GPIO size and GPIO pin mappings in processor.v
 
+   output reg write_done ; 
+
+   output reg [2:0] instructions ; 
+
+   input wire [4:0] input_gpio_pins;
+
+   output reg [2:0] output_gpio_pins;  
+
+
    always @(posedge clk) 
 
    begin
