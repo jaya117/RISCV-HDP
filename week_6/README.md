@@ -16,3 +16,8 @@ Waveforms
 
 <img width="912" alt="image" src="https://github.com/jaya117/RISCV-HDP/assets/139655462/d382e9f2-3e3c-4003-845d-4247c13eba3d">
 
+waveforms with different stimulus
+
+<img width="786" alt="image" src="https://github.com/jaya117/RISCV-HDP/assets/139655462/2fec5d58-2001-4553-b2af-2fea99fe849f">
+
+
