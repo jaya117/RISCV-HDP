@@ -11,3 +11,8 @@
 5. Updated the testbench to add more stimulus points , and observed the waveform
 
 6. Analysed the waveform and inputs and outputs of varuious black box modules like ID pipeline , ALU etc
+
+Waveforms 
+
+<img width="912" alt="image" src="https://github.com/jaya117/RISCV-HDP/assets/139655462/d382e9f2-3e3c-4003-845d-4247c13eba3d">
+
