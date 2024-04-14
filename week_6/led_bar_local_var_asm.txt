@@ -1,0 +1,39 @@
+
+ledbarlocalvarasmout:     file format elf32-littleriscv
+
+
+Disassembly of section .text:
+
+00010054 <main>:
+   10054:	d0000737          	lui	a4,0xd0000
+   10058:	001f7793          	andi	a5,t5,1
+   1005c:	02078263          	beqz	a5,10080 <main+0x2c>
+   10060:	004f5513          	srli	a0,t5,0x4
+   10064:	00157793          	andi	a5,a0,1
+   10068:	00079c63          	bnez	a5,10080 <main+0x2c>
+   1006c:	001f7793          	andi	a5,t5,1
+   10070:	fe0784e3          	beqz	a5,10058 <main+0x4>
+   10074:	004f5513          	srli	a0,t5,0x4
+   10078:	00157793          	andi	a5,a0,1
+   1007c:	fe0788e3          	beqz	a5,1006c <main+0x18>
+   10080:	01cf1513          	slli	a0,t5,0x1c
+   10084:	00ef7f33          	and	t5,t5,a4
+   10088:	00af6f33          	or	t5,t5,a0
+   1008c:	fcdff06f          	j	10058 <main+0x4>
+
+00010090 <is_motion_sensor_enabled>:
+   10090:	001f7513          	andi	a0,t5,1
+   10094:	00008067          	ret
+
+00010098 <is_motion_detected>:
+   10098:	004f5513          	srli	a0,t5,0x4
+   1009c:	00157793          	andi	a5,a0,1
+   100a0:	00078513          	mv	a0,a5
+   100a4:	00008067          	ret
+
+000100a8 <read_input_drive_output>:
+   100a8:	d00007b7          	lui	a5,0xd0000
+   100ac:	01cf1513          	slli	a0,t5,0x1c
+   100b0:	00ff7f33          	and	t5,t5,a5
+   100b4:	00af6f33          	or	t5,t5,a0
+   100b8:	00008067          	ret
