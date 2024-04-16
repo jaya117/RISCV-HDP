@@ -120,4 +120,15 @@ And their names at the time of instantiation in the design also need to be repla
     <img width="403" alt="image" src="https://github.com/jaya117/RISCV-HDP/assets/139655462/6e01a190-9493-4725-8732-7265088e1612">
 
 
-<details><summary>Gate Level Simulations with UART Byapssed</summary></details>
+<details><summary>Gate Level Simulations with UART Byapssed</summary>
+ To simulate the design with UART bypassed , Following steps were done
+
+   a. Convert processor.v to FPGA version by setting convert this rtl into ASIC version , 
+       by setting writing_inst_done=1
+   b. Resynthesize the RTL
+   c. create a copy of sky130_sram_1kbyte_1rw1r_32x256_8.v as sky130_sram_1kbyte_1rw1r_32x256_8_inst.v
+   d. Uncomment the initial begin block that intializaes the memory array and replace it with the initial 
+      begin block from memory behavioral model defined in processor.v for functional simulation. This 
+      updated memory behavioral file can be found here - [sky130_sram_1kbyte_1rw1r_32x256_8_inst.v](./synthesis/sky130_sram_1kbyte_1rw1r_32x256_8_inst.v) 
+   
+</details>
