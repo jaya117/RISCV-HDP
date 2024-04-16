@@ -3,7 +3,7 @@
 // Word size: 32
 // Write size: 8
 
-module sky130_sram_1kbyte_1rw1r_32x256_8(
+module sky130_sram_1kbyte_1rw1r_32x256_8_inst(
 `ifdef USE_POWER_PINS
     vccd1,
     vssd1,
