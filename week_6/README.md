@@ -102,4 +102,22 @@ And their names at the time of instantiation in the design also need to be repla
      
 </details>
 <details> <summary> Gate level simulation with UART ON </summary></details>
+
+1. Used following commands to compile the netlist version of processor.v and testbench
+
+   iverilog -o gls testbench.v processor_netlist.v sky130_fd_sc_hd.v sky130_sram_1kbyte_1rw1r_32x256_8.v primitives.v
+
+2. We had synthesized the processor.v file in ASIC format , so the final netlist doesn't support the provision of backdoor loading of the program image in instruction memory. So we will be using uart to load the program image in  instruction memory. Used following command to simulate
+
+ ./gls   
+ 
+ or 
+ 
+ vpp gls
+
+ 3. uart verfication output
+
+    <img width="403" alt="image" src="https://github.com/jaya117/RISCV-HDP/assets/139655462/6e01a190-9493-4725-8732-7265088e1612">
+
+
 <details><summary>Gate Level Simulations with UART Byapssed</summary></details>
