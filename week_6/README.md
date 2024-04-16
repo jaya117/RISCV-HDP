@@ -159,10 +159,9 @@ updated memory behavioral file can be found here - [sky130_sram_1kbyte_1rw1r_32x
      
 <img width="803" alt="image" src="https://github.com/jaya117/RISCV-HDP/assets/139655462/d6d7e149-0950-405a-a199-dd0a8b494100">
 
-     
-     <img width="797" alt="image" src="https://github.com/jaya117/RISCV-HDP/assets/139655462/031da1f0-7b02-4095-9858-656d096d4478">
 
-    
-    <img width="794" alt="image" src="https://github.com/jaya117/RISCV-HDP/assets/139655462/4913cd1e-0cdc-4d81-8207-1b0f75522cbc">
+<img width="794" alt="image" src="https://github.com/jaya117/RISCV-HDP/assets/139655462/eaa9e378-7939-4b0c-b816-2cb6e8168536">
+
+   
 
 </details>
