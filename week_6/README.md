@@ -30,7 +30,7 @@
 
 </details>
 
-<details> <summary> Sythesis of the  design </summary>
+<details> <summary> Sythesis of the processor design </summary>
 
    1. Design synthesis is done using open source yosys tool
    2. Inatlled latest version of yosys tool using following commands
