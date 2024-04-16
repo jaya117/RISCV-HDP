@@ -141,7 +141,8 @@ And their names at the time of instantiation in the design also need to be repla
 updated memory behavioral file can be found here - [sky130_sram_1kbyte_1rw1r_32x256_8_inst.v](./synthesis/sky130_sram_1kbyte_1rw1r_32x256_8_inst.v)
 
   e. In processor_netlist_fpga.v , replace sky130_sram_1kbyte_1rw1r_32x256_8 inst_mem(  with 
-     sky130_sram_1kbyte_1rw1r_32x256_8_inst inst_mem( 
+     sky130_sram_1kbyte_1rw1r_32x256_8_inst inst_mem()
+     [processor_netlist_fpga.v](./synthesis/processor_netlist_fpga.v)
      
   f.   recompile using following command 
    
