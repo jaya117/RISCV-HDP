@@ -124,14 +124,25 @@ And their names at the time of instantiation in the design also need to be repla
 
 
 <details><summary>Gate Level Simulations with UART Byapssed</summary>
- To simulate the design with UART bypassed , Following steps were done
 
-   a. Convert processor.v to FPGA version by setting convert this rtl into ASIC version , 
-       by setting writing_inst_done=1
-   b. Resynthesize the RTL
+   To simulate the design with UART bypassed , Following steps were done
+ 
+   a. Convert the processor.v used for previous synthesis cycle to FPGA version , by setting 
+       writing_inst_done=1
+   b. Resynthesized processor.v and final netlist was saved as [processor_netlist_fpga.v] (.synthesis/processor_netlist_fpga.v)
    c. create a copy of sky130_sram_1kbyte_1rw1r_32x256_8.v as sky130_sram_1kbyte_1rw1r_32x256_8_inst.v
    d. Uncomment the initial begin block that intializaes the memory array and replace it with the initial 
       begin block from memory behavioral model defined in processor.v for functional simulation. This 
-      updated memory behavioral file can be found here - [sky130_sram_1kbyte_1rw1r_32x256_8_inst.v](./synthesis/sky130_sram_1kbyte_1rw1r_32x256_8_inst.v) 
-   
+      updated memory behavioral file can be found here - [sky130_sram_1kbyte_1rw1r_32x256_8_inst.v](./synthesis/sky130_sram_1kbyte_1rw1r_32x256_8_inst.v)
+
+  d. In processor_netlist_fpga.v , replace sky130_sram_1kbyte_1rw1r_32x256_8 inst_mem(  with 
+     sky130_sram_1kbyte_1rw1r_32x256_8_inst inst_mem( 
+     
+   e. recompile using following command 
+    iverilog -o gls_fpga testbench.v processor_netlist.v sky130_fd_sc_hd.v sky130_sram_1kbyte_1rw1r_32x256_8.v sky130_sram_1kbyte_1rw1r_32x256_8_inst.v primitives.v
+    f. Simulate 
+    ./gls_fpga
+
+    e. Investigate waveform 
+    
 </details>
