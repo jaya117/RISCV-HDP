@@ -119,6 +119,9 @@ And their names at the time of instantiation in the design also need to be repla
 
     <img width="403" alt="image" src="https://github.com/jaya117/RISCV-HDP/assets/139655462/6e01a190-9493-4725-8732-7265088e1612">
 
+    <img width="752" alt="image" src="https://github.com/jaya117/RISCV-HDP/assets/139655462/57b127bd-ccf2-44a7-ae4c-208c6e3710bf">
+
+
 
 <details><summary>Gate Level Simulations with UART Byapssed</summary>
  To simulate the design with UART bypassed , Following steps were done
