@@ -151,6 +151,13 @@ updated memory behavioral file can be found here - [sky130_sram_1kbyte_1rw1r_32x
     
        ./gls_fpga
 
-  e. Investigate waveform 
-    
+  e. Investigate waveform - 
+
+     Wavefrom showed that the Gate Level simulation results matched with functional simulation results!
+     Yay!!!
+     
+     <img width="797" alt="image" src="https://github.com/jaya117/RISCV-HDP/assets/139655462/031da1f0-7b02-4095-9858-656d096d4478">
+
+    <img width="794" alt="image" src="https://github.com/jaya117/RISCV-HDP/assets/139655462/4913cd1e-0cdc-4d81-8207-1b0f75522cbc">
+
 </details>
