@@ -95,6 +95,10 @@ And their names at the time of instantiation in the design also need to be repla
     i. write the final netlist
 
        write_verilog processor_netlist.v
+
+    All Synthesis related files can be found  here
+
+    [synthesis](./synthesis)
      
 </details>
 <details> <summary> Gate level simulation with UART ON </summary></details>
