@@ -121,6 +121,9 @@ And their names at the time of instantiation in the design also need to be repla
 
     <img width="752" alt="image" src="https://github.com/jaya117/RISCV-HDP/assets/139655462/57b127bd-ccf2-44a7-ae4c-208c6e3710bf">
 
+    <img width="789" alt="image" src="https://github.com/jaya117/RISCV-HDP/assets/139655462/ed113c4a-96bb-48af-b7e0-598740882794">
+
+
 </details>
 
 <details><summary>Gate Level Simulations with UART Byapssed</summary>
