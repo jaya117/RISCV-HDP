@@ -1,6 +1,6 @@
 ### Tasks completed in the final week 6- 
 
-<details> <summary> Simulating the design with bypassing UART </summary>
+<details> <summary> Functional simulation of the processor design bypassing UART </summary>
 1. Simulation of the motion_sensitive_led_bar specific RISC-V design bypassing UART mechanism of loading the program image in memory the memory. Following steps were performed to do this task.
    
    a. In processor.v make following change, writing_inst_done=1 
