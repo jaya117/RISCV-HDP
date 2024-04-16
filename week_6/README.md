@@ -101,7 +101,7 @@ And their names at the time of instantiation in the design also need to be repla
     [synthesis](./synthesis)
      
 </details>
-<details> <summary> Gate level simulation with UART ON </summary>
+<details> <summary> Gate level simulation of the processor design with UART ON </summary>
 
 1. Used following commands to compile the netlist version of processor.v and testbench
 
@@ -126,7 +126,7 @@ And their names at the time of instantiation in the design also need to be repla
 
 </details>
 
-<details><summary>Gate Level Simulations with UART Byapssed</summary>
+<details><summary>Gate Level Simulations of the processor design with UART Byapssed</summary>
 
    To simulate the design with UART bypassed , Following steps were done
  
