@@ -115,7 +115,7 @@ And their names at the time of instantiation in the design also need to be repla
  
  vpp gls
 
- 3. uart verfication output
+ 3. uart verification output
 
     <img width="403" alt="image" src="https://github.com/jaya117/RISCV-HDP/assets/139655462/6e01a190-9493-4725-8732-7265088e1612">
 
