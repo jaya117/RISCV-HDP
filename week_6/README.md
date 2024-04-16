@@ -15,7 +15,7 @@
    iverilog -o led_bar_local_var_code_v testbench.v processor.v
    ./led_bar_local_var_code_v
 </details>   
- <details> <summary> Optomization of the design </summary>
+ <details> <summary> Optomization of application code and processor design </summary>
 2. On investigating the waveform I found that it was taking a very long time for input pins to drive the desired result on output pins. So to improve performance time I optimized the inline assemly code and removed multiple function calls to reduce instruction and branches. Created the processor core again based on the optimized C application program to achieve quickest input to output transition. This lead to speed up of the response by more than 50%.
 3. Updated the testbench to add more stimulus points , and observed the waveform to verify that the expected output was achieved
 7. Analysed the waveform and inputs and outputs of varuious black box modules like ID pipeline , ALU etc
