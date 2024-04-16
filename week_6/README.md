@@ -30,6 +30,72 @@
 
 </details>
 
-<details> <summary> Sythesis of the  design </summary></details>
+<details> <summary> Sythesis of the  design </summary>
+
+   1. Design synthesis is done using open source yosys tool
+   2. Inatlled latest version of yosys tool using following commands
+      
+      sudo apt install build-essential clang bison flex libreadline-dev \
+    gawk tcl-dev libffi-dev git graphviz \
+    xdot pkg-config python python3 libftdi-dev \
+    qt5-default python3-dev libboost-all-dev cmake libeigen3-dev
+
+     git clone https://github.com/YosysHQ/yosys yosys
+     cd yosys
+     make -j$(nproc)
+     sudo make install
+
+  3. Performed following steps to synthesize RTL
+     The RTL model processor.v that was used for functional verification and simulation has behavioral models of the instruction and data memory. Which are represented as - sky130_sram_2kbyte_1rw1r_32x256_8_inst and sky130_sram_2kbyte_1rw1r_32x256_8_data . we needed seperate behavioral models of the instrcution and data memory in order to do certain  functional verification friendly things like - 
+Preloading the program image into the instruction memory array and thereby bypassing the tedious step of loading program instruction in memory via UART during the function simulation. 
+
+2) These behavioral memory models are not synthesizable , so when preparing the design for synthesis , we need to comment out the RTL modules containing definitions of these behavioral model.
+
+And their names at the time of instantiation in the design also need to be replace by already synthesized blabk box memory model provided by sky130 foundary. To do this in the current design we just need to replace  sky130_sram_2kbyte_1rw1r_32x256_8_inst and sky130_sram_2kbyte_1rw1r_32x256_8_data with sky130_sram_1kbyte_1rw1r_32x256_8. 
+
+3) Next step is to convert this rtl into ASIC version , for that set writing_inst_done=0 in processor.v
+
+4) Copied following sky130 libraries, processor.v and testbench.v to the same directory
+   sky130_fd_sc_hd__tt_025C_1v80_256.lib
+   sky130_fd_sc_hd.v
+   primitives.v
+   sky130_sram_1kbyte_1rw1r_32x256_8.v
+   
+6)  Used following yosys commands to synthesize the design
+   a. cd to the directory where design and sky130 liberary files are located
+
+    b. launch yosys
+
+         yosys
+
+    c. on yosys prompt
+
+        read_liberty -lib sky130_fd_sc_hd__tt_025C_1v80_256.lib
+
+    d. read verilog file
+
+        read_verilog processor.v
+
+    e. synthesize
+
+        synth -top wrapper
+
+    f.  write output verilog
+
+        write_verilog test_output.v
+
+    g.  map the syhthesized logic cells in test_output file to standard liberary cells
+
+        abc -liberty sky130_fd_sc_hd__tt_025C_1v80_256.lib
+
+    h. map the syhthesized flip flops cells in the test_output file to the standard liberary
+
+        dfflibmap -liberty sky130_fd_sc_hd__tt_025C_1v80_256.lib
+
+    i. write the final netlist
+
+       write_verilog processor_netlist.v
+     
+</details>
 <details> <summary> Gate level simulation with UART ON </summary></details>
 <details><summary>Gate Level Simulations with UART Byapssed</summary></details>
