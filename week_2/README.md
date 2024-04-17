@@ -1,13 +1,6 @@
-### Assignment Location for Week_2 [Assignment1](./Assignment1) . 
-### Assignment details can be found in [Assignment1/README.md](./Assignment1/README.md)
+### RISC-V HDP Week_2 Learnings 
 
-### Learnings of Week_2
-## RISCV-HDP Training week2 
-#### This week's training has two sessions , in the following sections I describe my learnings during these sessions and paths to the related assignments.
-
-### What did I learn in Week2_Session1
-
-#### Topics 
+<details><summary> Measuring the CPU perfomance </summary>
 <img width="617" alt="topics" src="https://github.com/jaya117/gitlearn_new/assets/139655462/7b67e0a0-a2fa-4005-a9f4-92d0c7833ae8">
 
 #### How fast is your processor? How is CPU performance measured?
@@ -67,9 +60,12 @@
 #### The more a software uses instructions that have larger CPI the worse it's performance is as compared to a software that uses more instructions with smaller CPI 
 #### In example below , even though the red software sequence uses more instruction it's total CPI is less as it uses more instructions with smaller CPI as compared to blue sequence
 <img width="619" alt="image" src="https://github.com/jaya117/gitlearn_new/assets/139655462/b3e73c82-d129-427f-8845-2ab5c13de72b">
+</details>
+<details><summary> CPU microarchitecture </summary>
+ TBD
+</details>
 
-## What is CPU mircoarchitecture ? 
-### TBD
+
 
 
 
