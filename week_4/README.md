@@ -15,26 +15,28 @@ I have created two versions of assmebly code , the first version is without usin
 </details> <details><summary>The instruction statistics from the Ofast version of the assembly code </summary>
 
 
-#### Total number of instructions used in Ofast version of assembly code - 159
+<ol> <li>Total number of instructions used in Ofast version of assembly code - <strong>159</strong> </li>  <li> Total number of unique instructions used in the program - <strong>17</strong> </li> 
 
-#### Total number of unique instructions used in the program - 17
 
-#### Unique Instructions
-1. lui
-2. li
-3. addi
-4. not
-5. an
-6. andi
-7. beqz
-8. srli
-9. bnez
-10. add
-11. slli
-12. or
-13. j
-14. ret
-15. mv
-16. sw
-17. lw
+
+<li>List of Unique Instructions produced by the compiler</li>
+<ol> <li> <strong>lui</strong></li>
+ <li> <strong>li </strong></li>
+<li> <strong>addi</strong> </li>
+<li> <strong>not</strong> </li>
+<li> <strong>and </strong> </li>
+<li> <strong>andi </strong> </li>
+<li> <strong> beqz </strong> </li>
+<li> <strong>srli </strong> </li>
+<li> <strong>bnez </strong> </li>
+<li> <strong>add </strong> </li>
+<li> <strong>slli </strong> </li>
+<li> <strong>or </strong> </li>
+<li> <strong> j </strong> </li>
+<li> <strong>ret </strong> </li>
+<li> <strong>mv </strong> </li>
+<li> <strong>sw </strong> </li>
+<li> <strong>lw </strong> </li>
+</ol>
+</ol>
 </details>
