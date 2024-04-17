@@ -12,8 +12,8 @@ I have created two versions of assmebly code , the first version is without usin
 
 </details> <details> <summary>Full Assembly code for application with Ofast compiler optimization </summary>
  - [motion_sensitive_led_bar_Ofast.asm](./Assignment/motion_sensitive_led_bar_Ofast.asm)
-</details>
-## The instruction statistics from the Ofast version of the assembly code 
+</details> <details><summary>The instruction statistics from the Ofast version of the assembly code </summary>
+
 
 #### Total number of instructions used in Ofast version of assembly code - 159
 
@@ -37,4 +37,4 @@ I have created two versions of assmebly code , the first version is without usin
 15. mv
 16. sw
 17. lw
-
+</details>
