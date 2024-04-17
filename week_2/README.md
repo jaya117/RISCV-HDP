@@ -82,7 +82,7 @@
    
 </details>
 <details> 
-  <summary> Training Project - Choose the IoT application for implementation </summary>
+  <summary> Training Project - Choosing the IoT application for implementation </summary>
   Still thinking about it.
 
 
