@@ -1,10 +1,10 @@
 ## Tasks to be completed in week_0
 <details><summary>Setup Oracle virtual Machine and install RISC-V tool chain</summary> Steps for installation - 
 Important Note - Make sure your C drive or D drive has at least 100GB of space.
- 
- 1. Download the below-ZIPPED file on your laptop [https://forgefunder.com/~kunal/riscv_workshop.vdi]
- 2. Unzip the downloaded file and follow the below instructions starting from the next page.
-
+ <ol>
+ <li> Download the below-ZIPPED file on your laptop [https://forgefunder.com/~kunal/riscv_workshop.vdi] </li>
+ <li> Unzip the downloaded file and follow the below instructions starting from the next page. </li>
+ </ol>
  <strong>Installation steps for Windows </strong>
  
   To open a VDI file in Windows, you can use Oracle VirtualBox, which is a free and open-source 
