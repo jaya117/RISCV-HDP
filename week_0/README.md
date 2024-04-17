@@ -73,6 +73,9 @@ Note:
 
 After installing the ORACLE VM VIRTUALBOX MANAGER on your machine, make sure to include these settings to get a better display
 
+![image](https://github.com/jaya117/RISCV-HDP/assets/139655462/a6a9d7ed-d786-4e66-82cf-e172098279f1)
+
+
 </details>
 
 <details><summary> Create a github repository </summary>
