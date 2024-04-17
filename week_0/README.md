@@ -75,6 +75,16 @@ After installing the ORACLE VM VIRTUALBOX MANAGER on your machine, make sure to 
 
 ![image](https://github.com/jaya117/RISCV-HDP/assets/139655462/a6a9d7ed-d786-4e66-82cf-e172098279f1)
 
+![image](https://github.com/jaya117/RISCV-HDP/assets/139655462/30c0eb58-f53f-457d-807e-a60ac8c8d951)
+
+![image](https://github.com/jaya117/RISCV-HDP/assets/139655462/fab130d0-0c56-4aa4-bb1c-5b495571752f)
+
+After all the settings have been done, the Oracle VM VirtualBox Manager will look like this:
+
+![image](https://github.com/jaya117/RISCV-HDP/assets/139655462/14a45baa-517a-4762-8842-4bea212e8b03)
+
+
+
 
 </details>
 
