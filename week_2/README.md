@@ -78,7 +78,7 @@
  Fields in the json file are self explainatory ..e.g. Alu_dist actually indicates the number of pipeline stages needed.
  The idea is to choose the parameters wisely and fully based on the exact needs of the application program. For example if the code only has 50 instructions then a small 
  instruction memory will be sufficient and PC size of 6 bits can cater to the needs of the program. Similarly we can choose what all instructions our code needs and only implement those instructions in the microarchitecture of our core 
-    <img width="563" alt="image" src="https://github.com/jaya117/RISCV-HDP/assets/139655462/0f569ef3-4a79-4149-8069-6d1078364049"> </li> <li> Steps to use the tool</li></ol>
+    <img width="563" alt="image" src="https://github.com/jaya117/RISCV-HDP/assets/139655462/0f569ef3-4a79-4149-8069-6d1078364049"> </li> <li> Steps to use the tool</li> Once teh json file and asm file for the application is ready upload it at http://16.16.202.21/ , wait for a few seconds and the tool will prompt back with two verilog files namely processor.v and testbench.v . The user can download it and copy these files at an appropriate location </ol>
    
 </details>
 <details> 
