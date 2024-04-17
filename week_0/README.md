@@ -1,4 +1,4 @@
-## Tasks to be completed in week_0
+## Getting Ready
 <details><summary>Setup Oracle virtual Machine and install RISC-V tool chain</summary> Steps for installation - 
 Important Note - Make sure your C drive or D drive has at least 100GB of space.
  <ol>
