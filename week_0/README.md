@@ -5,13 +5,15 @@ Important Note - Make sure your C drive or D drive has at least 100GB of space.
  <li> Download the below-ZIPPED file on your laptop [https://forgefunder.com/~kunal/riscv_workshop.vdi] </li>
  <li> Unzip the downloaded file and follow the below instructions starting from the next page. </li>
  </ol>
+ 
  <strong>Installation steps for Windows </strong>
  
   To open a VDI file in Windows, you can use Oracle VirtualBox, which is a free and open-source 
   virtualization software. Here are the steps to open a VDI file in Windows using VirtualBox:
-    
-      a. Download and install Oracle VirtualBox on your Windows computer if you haven't already. You can 
-         download it from the official website: [https://www.virtualbox.org/wiki/Downloads]
+
+  <ol> 
+      <li>  Download and install Oracle VirtualBox on your Windows computer if you haven't already. You can 
+         download it from the official website: [https://www.virtualbox.org/wiki/Downloads]    </li>
     
       b. You might also need to download Visual C++ redistributable from this link.
     
@@ -35,6 +37,8 @@ Important Note - Make sure your C drive or D drive has at least 100GB of space.
          file. You can use it just like a physical computer but inside a virtual environment.
 
          That's it! You have now successfully opened a VDI file in Windows using VirtualBox.
+
+</ol>
 
 <strong> Installation steps for Ubuntu </strong>
 
