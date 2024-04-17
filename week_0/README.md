@@ -12,31 +12,19 @@ Important Note - Make sure your C drive or D drive has at least 100GB of space.
   virtualization software. Here are the steps to open a VDI file in Windows using VirtualBox:
 
   <ol> 
-      <li>  Download and install Oracle VirtualBox on your Windows computer if you haven't already. You can 
-         download it from the official website: [https://www.virtualbox.org/wiki/Downloads]    </li>
-    
-      b. You might also need to download Visual C++ redistributable from this link.
-    
-      c. Launch VirtualBox and click on the "New" button to create a new virtual machine.
-    
-      d. Fill up the details as shown in the image below.
-
-      e. In the "Create Virtual Machine" wizard, enter a name for the virtual machine and select the 
+      <li>  Download and install Oracle VirtualBox on your Windows computer if you haven't already. You 
+            can download it from the official website: [https://www.virtualbox.org/wiki/Downloads] . </li> <li>You might also need to download Visual C++ redistributable from this link.</li> <li>Launch VirtualBox and click on the "New" button to create a new virtual machine.</li><li>Fill up the details as shown in the image below.</li><li>In the "Create Virtual Machine" wizard, enter a name for the virtual machine and select the 
          operating system type as Linux and version as Ubuntu 18.04 that matches the one installed in 
-         the VDI file you want to open.
-      f. On the next screen, allocate memory.Create a virtual hard disk. Choose the "Use an existing 
+         the VDI file you want to open.</li><li>On the next screen, allocate memory.Create a virtual hard disk. Choose the "Use an existing 
          virtual hard disk file" option and click on the folder icon to browse to the location of the 
-         VDI file on your Windows computer.
-      g. Select the VDI file that you have downloaded/unzipped and click "Open" to add it to the virtual 
+         VDI file on your Windows computer.</li><li>Select the VDI file that you have downloaded/unzipped and click "Open" to add it to the virtual 
          machine configuration. Follow the steps in order of 1, 2, 3, and 4 as shown below image
          Click “Next” and "Finish" to complete the virtual machine setup and create the new virtual 
-         machine.
-         Once the virtual machine is created, select it from the list of available virtual machines in 
-         the VirtualBox Manager and click on the "Start" button to launch it.
-      h. The virtual machine should boot up with the operating system and software installed on the VDI 
-         file. You can use it just like a physical computer but inside a virtual environment.
+         machine.</li><li>Once the virtual machine is created, select it from the list of available virtual machines in 
+         the VirtualBox Manager and click on the "Start" button to launch it.</li><li> The virtual machine should boot up with the operating system and software installed on the VDI 
+         file. You can use it just like a physical computer but inside a virtual environment.</li><li> That's it! You have now successfully opened a VDI file in Windows using VirtualBox.</li>
 
-         That's it! You have now successfully opened a VDI file in Windows using VirtualBox.
+        
 
 </ol>
 
