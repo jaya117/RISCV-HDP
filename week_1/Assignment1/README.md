@@ -14,12 +14,19 @@ Counter–
 4.	Each of these segments contains the assembly version of the C code which are the sequences of load, store ,mathematical operations, function calls and branch instruction 
 5.	Total 69 lines of assembly code
 
+![image](https://github.com/jaya117/RISCV-HDP/assets/139655462/42259d84-1d2b-474f-ab2e-86dc38d3b098)
+
  
  ###### Observation after changing the numeric values in the input matrix – 
-1.	Before changing the input 
- 
+1.	Before changing the input
 
-2.	After Changing the input , changes are reflected in the assembly code . 
+   ![image](https://github.com/jaya117/RISCV-HDP/assets/139655462/83c0572b-c8c6-4b92-8d58-438b31fd8c8a)
+
+
+2.	After Changing the input , changes are reflected in the assembly code .
+
+   ![image](https://github.com/jaya117/RISCV-HDP/assets/139655462/925f60ca-558c-4845-8609-c705e164399f)
+
  
 
 
@@ -31,13 +38,19 @@ Counter–
 2.	Total 67 lines of code which is almost same to RISC-V assembly code
 3.	Similar observation about segments as RISC-V assembly code 
   
+![image](https://github.com/jaya117/RISCV-HDP/assets/139655462/0a330f5c-4af9-4271-843c-7e76f13f04d4)
+
 
 3.	Observation of assembly code on changing the numeric values in the input counter
 ##### Before change – 
- 
+
+ ![image](https://github.com/jaya117/RISCV-HDP/assets/139655462/220d094b-6f82-43e8-ba29-8a4a6f6f2193)
+
 
  ##### After change observations –
 1.	Changes are reflected in the assembly code , however unlike RISC-V assembly code , the total number of lines in the assembly code remain the same 67 lines.
- 
+
+ ![image](https://github.com/jaya117/RISCV-HDP/assets/139655462/89f24577-26bc-4db4-b5e7-48604b17d851)
+
 
 
